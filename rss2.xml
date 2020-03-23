@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>정문의 블로그입니다.</description>
-    <pubDate>Mon, 23 Mar 2020 07:24:06 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2020 07:39:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,38 +19,18 @@
       <pubDate>Mon, 23 Mar 2020 06:57:36 GMT</pubDate>
       <description>
       
-        
-        
-          &lt;p&gt;퇴사하고 시간이 좀 생기고, 앞으로 공부한 것들을 잘 정리하기 위해서 Github 블로그를 만들었다. &lt;/p&gt;
-&lt;p&gt;조금 찾아보니 jekyll와 hexo 기반으로 블로그 만드는 글이 많았다. 최근에는 hexo를 추천하는 글이 많았고, hexo 테
-        
+        &lt;p&gt;퇴사하고 시간이 좀 생기고, 앞으로 공부한 것들을 잘 정리하기 위해서 Github 블로그를 만들었다. &lt;/p&gt;
+&lt;p&gt;조금 찾아보니 jekyll와 hexo 기반으로 블로그 만드는 글이 많았다. 최근에는 hexo를 추천하는 글이 많았고, hexo 테마들이 괜찮아보였다. 그중 icarus는 테마가 깔끔하고 관련 글이 많았고, Tranquilpeak는 이쁜데 관련 글이 적었다. 그래서 icarus 테마로 시작했다. &lt;/p&gt;
+&lt;p&gt;결과부터 말하면 역시나 쉽지 않았다. hexo가 node.js를 기반인데 일단 java script, html와 css를  몰라서 블로그 보고 따라하기도 힘들었다. 그래서 블로그 만들고 이 후기 적는데 꽤 오래 걸렸다.&lt;/p&gt;
+&lt;p&gt;이제 반 했으니 블로그를 만들었으니 틈틈이 글을 올려볼 생각이다. &lt;/p&gt;
+&lt;!-- 본문이 이렇게 있을 때 여기까지만 인덱스 페이지에 나타납니다.
       
       </description>
       
       
-      <content:encoded><![CDATA[<p>퇴사하고 시간이 좀 생기고, 앞으로 공부한 것들을 잘 정리하기 위해서 Github 블로그를 만들었다. </p><p>조금 찾아보니 jekyll와 hexo 기반으로 블로그 만드는 글이 많았다. 최근에는 hexo를 추천하는 글이 많았고, hexo 테마들이 괜찮아보였다. 그중 icarus는 테마가 깔끔하고 관련 글이 많았고, Tranquilpeak는 이쁜데 관련 글이 적었다. 그래서 icarus 테마로 시작했다. </p><p>결과부터 말하면 역시나 쉽지 않았다. hexo가 node.js를 기반인데 일단 java script, html와 css를  몰라서 블로그 보고 따라하기도 힘들었다. 그래서 블로그 만들고 이 후기 적는데 꽤 오래 걸렸다.</p><p>이제 반 했으니 블로그를 만들었으니 틈틈이 글을 올려볼 생각이다. </p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>퇴사하고 시간이 좀 생기고, 앞으로 공부한 것들을 잘 정리하기 위해서 Github 블로그를 만들었다. </p><p>조금 찾아보니 jekyll와 hexo 기반으로 블로그 만드는 글이 많았다. 최근에는 hexo를 추천하는 글이 많았고, hexo 테마들이 괜찮아보였다. 그중 icarus는 테마가 깔끔하고 관련 글이 많았고, Tranquilpeak는 이쁜데 관련 글이 적었다. 그래서 icarus 테마로 시작했다. </p><p>결과부터 말하면 역시나 쉽지 않았다. hexo가 node.js를 기반인데 일단 java script, html와 css를  몰라서 블로그 보고 따라하기도 힘들었다. 그래서 블로그 만들고 이 후기 적는데 꽤 오래 걸렸다.</p><p>이제 반 했으니 블로그를 만들었으니 틈틈이 글을 올려볼 생각이다. </p><!-- 본문이 이렇게 있을 때 여기까지만 인덱스 페이지에 나타납니다.<a id="more"></a><!-- 여기서부턴 인덱스에 안나옵니다. --><!-- 여기까지의 내용은 인덱스 페이지에만 나타납니다. --><!-- excerpt --><p>&lt;!– 여기서부턴 본문 시작입니다. </p>]]></content:encoded>
       
       <comments>http://jeongmun.github.io/2020/03/23/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A0-%ED%9B%84%EA%B8%B0/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://jeongmun.github.io/2020/03/22/hello-world/</link>
-      <guid>http://jeongmun.github.io/2020/03/22/hello-world/</guid>
-      <pubDate>Sun, 22 Mar 2020 07:56:00 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
-        
-      
-      </description>
-      
-      
-      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>]]></content:encoded>
-      
-      <comments>http://jeongmun.github.io/2020/03/22/hello-world/#disqus_thread</comments>
     </item>
     
   </channel>
