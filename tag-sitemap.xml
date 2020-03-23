@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>http://jeongmun.github.io</loc>
-        <changefreq>daily</changefreq>
-        <priority>1</priority>
-    </url>
 
     <url>
-        <loc>http://jeongmun.github.io/2020/03/23/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A0-%ED%9B%84%EA%B8%B0/</loc>
+        <loc>http://jeongmun.github.io/tags/Github-blog/</loc>
         <lastmod>2020-03-23T07:51:13.134Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>
