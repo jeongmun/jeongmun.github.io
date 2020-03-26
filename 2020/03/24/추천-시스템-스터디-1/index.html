@@ -7,22 +7,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>아카이브: 2020 - Jeongmun&#39; BLOG</title>
+<title>추천 시스템 스터디 - 1 - Jeongmun&#39; BLOG</title>
 
 
-    <meta name="description" content="정문의 블로그입니다.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jeongmun&#39; BLOG">
-<meta property="og:url" content="http://jeongmun.github.io/archives/2020/index.html">
+    <meta name="description" content="아래 내용은 Kim Falk의 Practical Recommender Systems-Manning Publications (2019)을 기반으로 한 내용이다. 추천 시스템의 정의 추천 시스템은 고객의 지식, 컨텐츠, 고객과 물품간의 상호작용을 기반으로 계산하여 고객들에게 적절한 컨텐츠를 제공하는 것이다.    추천 시스템의 요소 도메인(Domain)   도">
+<meta property="og:type" content="article">
+<meta property="og:title" content="추천 시스템 스터디 - 1">
+<meta property="og:url" content="http://jeongmun.github.io/2020/03/24/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%8A%A4%ED%84%B0%EB%94%94-1/index.html">
 <meta property="og:site_name" content="Jeongmun&#39; BLOG">
-<meta property="og:description" content="정문의 블로그입니다.">
+<meta property="og:description" content="아래 내용은 Kim Falk의 Practical Recommender Systems-Manning Publications (2019)을 기반으로 한 내용이다. 추천 시스템의 정의 추천 시스템은 고객의 지식, 컨텐츠, 고객과 물품간의 상호작용을 기반으로 계산하여 고객들에게 적절한 컨텐츠를 제공하는 것이다.    추천 시스템의 요소 도메인(Domain)   도">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="http://jeongmun.github.io/images/og_image.png">
+<meta property="article:published_time" content="2020-03-24T08:36:40.000Z">
+<meta property="article:modified_time" content="2020-03-26T12:09:10.738Z">
 <meta property="article:author" content="Jeongmun">
-<meta property="article:tag" content="Data Analysis">
-<meta property="article:tag" content=" Data Scientist">
-<meta property="article:tag" content=" Machine Learning">
-<meta property="article:tag" content=" Recommedation System">
+<meta property="article:tag" content="추천시스템, Recommendation System">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://jeongmun.github.io/images/og_image.png">
 
@@ -83,7 +82,7 @@
 
 
 <link rel="stylesheet" href="/css/style.css">
-    <link rel="canonical" href="http://jeongmun.github.io/archives/2020/">
+    <link rel="canonical" href="http://jeongmun.github.io/2020/03/24/추천-시스템-스터디-1/">
     <meta name="google-site-verification" content="aBOenUdV8WcsgihDLxiwMP7aRjsOm2_4pEi3MWeRRSU">
     <meta name="naver-site-verification" content="08a5fb87a34c450e89bab28af66b5521bffe8136">
 <link rel="alternate" href="/rss2.xml" title="Jeongmun' BLOG" type="application/rss+xml">
@@ -94,7 +93,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="Jeongmun&#39; BLOG" height="28">
+                <img src="/images/logo.svg" alt="추천 시스템 스터디 - 1" height="28">
             
             </a>
         </div>
@@ -139,51 +138,135 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-24T08:36:40.000Z">2020-03-24</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    6분 읽기 (대략 880 단어)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                추천 시스템 스터디 - 1
+            
+        </h1>
+        <div class="content">
+            <p>아래 내용은 Kim Falk의 Practical Recommender Systems-Manning Publications (2019)을 기반으로 한 내용이다.</p>
+<h1 id="추천-시스템의-정의"><a href="#추천-시스템의-정의" class="headerlink" title="추천 시스템의 정의"></a>추천 시스템의 정의</h1><ul>
+<li>추천 시스템은 고객의 지식, 컨텐츠, 고객과 물품간의 상호작용을 기반으로 계산하여 고객들에게 적절한 컨텐츠를 제공하는 것이다.  </li>
+</ul>
+<h1 id="추천-시스템의-요소"><a href="#추천-시스템의-요소" class="headerlink" title="추천 시스템의 요소"></a>추천 시스템의 요소</h1><ol>
+<li>도메인(Domain)</li>
+</ol>
+<ul>
+<li>도메인은 추천된 컨텐츠의 종류이다. 넷플릭스를 예로 들면 영화, TV 시리즈 뿐만 아니라 인터넷 강좌까지 해당한다. 도메인은 어떤걸 추천할지에 대한 힌트를 주기때문에 중요하다. </li>
+</ul>
+<ol start="2">
+<li>목적(Purpose)</li>
+</ol>
+<ul>
+<li>최종 사용자: 특정 시간에 사용자가 원하는 적당한 컨텐츠를 찾는 것</li>
+<li>컨텐츠 제공자: 고객들이 계속 결제하는 것</li>
+</ul>
+<ol start="3">
+<li>맥락(Context)</li>
+</ol>
+<ul>
+<li>맥락은 고객들에 추천을 받는 환경이다. 맥락은 고객들이 뭔가를 보기 위해 사용하는 장비일수도 있고, 장소일수도 있고, 시간, 고객이 하는 일 일수도 있다. 심지어는 날씨나 기분까지 포함될 수 있다.</li>
+</ul>
+<ol start="4">
+<li>개인화 수준(Personalization level)</li>
+</ol>
+<ul>
+<li>크게 Non-personalized, Semi-Personlized, Personalized로 나눠진다. 이 중 한개만 사용할 수도 있고, 품목별로 다르게 사용할 수도 있다. </li>
+<li>Non-personalized: 최근에 주문한 순서로 보여주기와 같이 모든 사람들과 동일한 추천을 받는다. 예를 들어 카페에서는 금요일 오후에는 술, 아침에는 카푸치노, 주말 아침에는 브런치를 추천한다.</li>
+<li>Semi-Personlized: 사용자들의 그룹을 연령, 국가, 직장인, 학생,  운전자 등과 같은 패턴으로 나눌 수 있다. 그리고 그룹별로 같은 추천을 한다.</li>
+<li>Personalized: 과거에 시스템과 어떻게 상호작용했는지에 대한 데이터를 기반으로 한다. 따라서 해당 유저를 위한 특별한 추천을 만든다. </li>
+</ul>
+<ol start="5">
+<li>사용자 의견(Whose opinions)</li>
+</ol>
+<ul>
+<li>전문가 추천은 전문가가 좋은 와인, 책, 영화들을 설명하는 시스템이지만 그렇게 많이 사용되지는 않는다. 최근에는 많은 사람들의 의견을 사용해서 추천한다.</li>
+</ul>
+<ol start="6">
+<li>개인 정보 보호와 신뢰도(Privacy and trustworthiness)</li>
+</ol>
+<ul>
+<li>추천을 위해 사용한 데이터에 개인정보가 포함되어 있다면 항상 보안 유지를 잘 해야한다. </li>
+<li>그리고 추천의 결과를 고객들이 광고나 조작 시도로 생각하지 않도록 해야한다.</li>
+</ul>
+<ol start="7">
+<li>인터페이스(Interface)</li>
+</ol>
+<ul>
+<li>input: explicit input과 implicit input으로 나눠진다. explicit input는 사용자들이 입력하는 좋아하는 것와 싫어하는 것에 대한 점수, 좋아하는 장르와 주제를 의미한다. implicit input는 사용자가 시스템과 상호작용하는 것을 통해 취향을 추론한 것이다. </li>
+<li>output: prediction, recommendation 또는 filtering 등의 형태 중 하나가 된다. prediction은 고객이 특정 물품을 얼마나 좋아할지에 대한 추정치이다. recommendation은 가장 적절한 물품 리스트 N개 인데, 여기서 적절한의 의미는 문맥와 인구 통계, 선호도에 대한 함수이다. </li>
+</ul>
+<ol start="8">
+<li>알고리즘(Algorithm)</li>
+</ol>
+<ul>
+<li>Collaborative Filtering: 활동 데이터를 사용한다.</li>
+<li>Contents based Filtering: 컨텐츠 메타 데이터와 사용자 프로파일을 사용하는 것</li>
+<li>Hybrid </li>
+</ul>
 
-<div class="card widget">
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-Recommendation-System/" rel="tag">추천시스템, Recommendation System</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+<div class="card">
     <div class="card-content">
-        <h3 class="tag is-link">
-        2020
-        </h3>
-        <div class="timeline">
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2020-03-24T08:36:40.000Z">2020-03-24</time>
-                        <a href="/2020/03/24/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%8A%A4%ED%84%B0%EB%94%94-1/" class="title has-link-black-ter is-size-6 has-text-weight-normal">추천 시스템 스터디 - 1</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2020-03-23T06:57:36.000Z">2020-03-23</time>
-                        <a href="/2020/03/23/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A0-%ED%9B%84%EA%B8%B0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Github 블로그 만든 후기</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/Github-blog/">Github blog</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
+        <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
+        <div class="buttons is-centered">
+            
         </div>
     </div>
 </div>
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2020/03/23/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A0-%ED%9B%84%EA%B8%B0/">
+                <span class="level-item">Github 블로그 만든 후기</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
 
 
 </div>
@@ -586,7 +669,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="Jeongmun&#39; BLOG" height="28">
+                    <img src="/images/logo.svg" alt="추천 시스템 스터디 - 1" height="28">
                 
                 </a>
                 <p class="is-size-7">
